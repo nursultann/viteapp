@@ -1,25 +1,23 @@
+import Navbar from "../components/navbar";
+
 function Home() {
     return (
         <>
-            <div className="container">
+            <Navbar/>
+            <div className="container-fluid">
                 <div className="row">
-                    <div className="col-12">
-                        <a href="/about">About</a>
+                    <div className="col-3">
+                        <img src="https://avatars.mds.yandex.net/i?id=f93d295374d23e9134464fff50597ceddaf1f9bf-12983374-images-thumbs&n=13" alt="" srcset="" width={'100%'} />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est voluptate dignissimos deserunt delectus quae molestiae, repudiandae cupiditate laborum unde vero veniam velit a, inventore dicta dolorum! Harum, libero error.</p>
                     </div>
-                    <div className="col-4">
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam ducimus, a facere dolor quae nostrum placeat neque sed ratione ipsam quos magnam debitis necessitatibus harum perspiciatis quaerat vero, animi sequi!
-                        </p>
+                    <div className="col-3">
+                        <img src="https://avatars.mds.yandex.net/i?id=f93d295374d23e9134464fff50597ceddaf1f9bf-12983374-images-thumbs&n=13" alt="" width={'100%'} />
                     </div>
-                    <div className="col-4">
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam ducimus, a facere dolor quae nostrum placeat neque sed ratione ipsam quos magnam debitis necessitatibus harum perspiciatis quaerat vero, animi sequi!
-                        </p>
+                    <div className="col-3">
+                        <img src="https://avatars.mds.yandex.net/i?id=f93d295374d23e9134464fff50597ceddaf1f9bf-12983374-images-thumbs&n=13" alt="" width={'100%'} />
                     </div>
-                    <div className="col-4">
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam ducimus, a facere dolor quae nostrum placeat neque sed ratione ipsam quos magnam debitis necessitatibus harum perspiciatis quaerat vero, animi sequi!
-                        </p>
+                    <div className="col-3">
+                        <img src="https://avatars.mds.yandex.net/i?id=f93d295374d23e9134464fff50597ceddaf1f9bf-12983374-images-thumbs&n=13" alt="" width={'100%'} />
                     </div>
                 </div>
             </div>
