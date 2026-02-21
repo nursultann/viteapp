@@ -1,3 +1,4 @@
+import Footer from "../components/footer"
 import Navbar from "../components/navbar"
 
 function About() {
@@ -18,6 +19,7 @@ function About() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

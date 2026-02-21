@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 
 function Detail(){
@@ -18,6 +19,7 @@ function Detail(){
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }
